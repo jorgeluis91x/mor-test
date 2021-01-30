@@ -1,5 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 import {createStackNavigator} from '@react-navigation/stack';
+import React from 'react';
 
 import ProfileScreen from '../screens/profile';
 
@@ -12,6 +13,7 @@ function AppNavigation() {
         name="Profile"
         component={ProfileScreen}
         options={{
+          title: '@Jake Lazaraus',
           headerShown: false,
         }}
       />
