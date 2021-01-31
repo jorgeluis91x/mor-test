@@ -3,7 +3,8 @@ import {styled} from '../../theme';
 type TextMorProps = {
   textColor?: string;
   size?: number;
-  flex?: number;
+  marginVertical?: number;
+  marginHorizontal?: number;
 };
 
 export const Container = styled.View`
@@ -12,14 +13,14 @@ export const Container = styled.View`
 `;
 
 export const ContainerBody = styled.View`
-  height: 200px;
   background-color: ${(props) => props.theme.colors.linen};
+  padding-horizontal: 16px;
 `;
 
 export const HeaderBody = styled.View`
   flex-direction: row;
   padding-vertical: 16px;
-  padding-horizontal: 16px;
+  justify-content: space-between;
 `;
 
 export const ContainerImageHeader = styled.View`
@@ -32,6 +33,9 @@ export const TopHeader = styled.View`
   flex-direction: row;
 `;
 
+export const RowView = styled.View`
+  flex-direction: row;
+`;
 export const BottomHeader = styled.View`
   justify-content: space-between;
   padding-bottom: 30px;
@@ -39,7 +43,7 @@ export const BottomHeader = styled.View`
 `;
 
 export const TitleName = styled.Text`
-  font-size: ${(props) => props.theme.fontSize.h1}px;
+  font-size: ${(props) => props.theme.fontSize.h1 + 5}px;
   color: white;
 `;
 
@@ -48,5 +52,9 @@ export const TextMor = styled.Text<TextMorProps>`
     props.size ? props.size : props.theme.fontSize.h3}px;
   color: ${(props) =>
     props.textColor ? props.textColor : props.theme.colors.primaryText};
-  flex: ${(props) => (props.flex ? props.flex : 1)};
+
+  margin-vertical: ${(props) =>
+    props.marginVertical ? props.marginVertical : 0}px;
+  margin-horizontal: ${(props) =>
+    props.marginHorizontal ? props.marginHorizontal : 0}px;
 `;

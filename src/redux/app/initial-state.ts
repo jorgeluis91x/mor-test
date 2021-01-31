@@ -1,4 +1,5 @@
-const appInitialState: {name: string} = {
-  name: 'test',
+const appInitialState: {moves: any; categories: any} = {
+  moves: {},
+  categories: {},
 };
 export {appInitialState};

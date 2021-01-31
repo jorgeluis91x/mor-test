@@ -9,7 +9,7 @@ import sagas from './sagas';
 //let store;
 
 function configureStore() {
-  const IS_PRODUCTION = true;
+  const IS_PRODUCTION = false;
   const sagaMiddlare = createSagaMiddleware();
 
   const rootPersistConfig = {

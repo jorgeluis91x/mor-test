@@ -1,0 +1,96 @@
+{
+    "cat-arts": {
+        "colors": {
+            "dark": "#AC152C",
+            "dotHighlight": "#FC3F5C",
+            "highContrast": "#FC3F5C",
+            "mutedLight": "#FFEBEE",
+            "mutedMid": "#F4D7DC"
+        },
+        "icon_name": "cat-art",
+        "name": "Arts",
+        "id": "cat-arts"
+    },
+    "cat-bedtime": {
+        "colors": {
+            "dark": "#CC6700",
+            "dotHighlight": "#FF8024",
+            "highContrast": "#FF8024",
+            "mutedLight": "#FFF2E8",
+            "mutedMid": "#F4E0D1"
+        },
+        "icon_name": "cat-bedtime",
+        "name": "Bedtime",
+        "id": "cat-bedtime"
+    },
+    "cat-fitness": {
+        "colors": {
+            "dark": "#E0C711",
+            "dotHighlight": "#FFE61E",
+            "highContrast": "#FFE61E",
+            "mutedLight": "#FBF9E4",
+            "mutedMid": "#F4F1D2"
+        },
+        "description": "complete a fitness routine to get physically stronger",
+        "icon_name": "cat-fitness",
+        "name": "Fitness",
+        "id": "cat-fitness"
+    },
+    "cat-health": {
+        "colors": {
+            "dark": "#2E7684",
+            "dotHighlight": "#59CBE0",
+            "highContrast": "#59CBE0",
+            "mutedLight": "#EEFAFC",
+            "mutedMid": "#DBECF0"
+        },
+        "icon_name": "cat-health",
+        "name": "Health",
+        "id": "cat-health"
+    },
+    "cat-mind": {
+        "colors": {
+            "dark": "#2F2671",
+            "dotHighlight": "#6A5BD3",
+            "highContrast": "#6A5BD3",
+            "mutedLight": "#F0EEFB",
+            "mutedMid": "#DEDBEE"
+        },
+        "icon_name": "cat-mid",
+        "name": "Mind",
+        "id": "cat-mind"
+    },
+    "cat-nutrition": {
+        "colors": {
+            "dark": "#318064",
+            "dotHighlight": "#53C69C",
+            "highContrast": "#53C69C",
+            "mutedLight": "#DAECE5"
+        },
+        "icon_name": "cat-nutrition",
+        "name": "Nutrition",
+        "id": "cat-nutrition"
+    },
+    "cat-wakeup": {
+        "colors": {
+            "dark": "#CC6700",
+            "dotHighlight": "#FF8024",
+            "highContrast": "#FF8024",
+            "mutedLight": "#FFF2E8",
+            "mutedMid": "#F4E0D1"
+        },
+        "icon_name": "cat-wakeup",
+        "name": "Wakeup",
+        "id": "cat-wakeup"
+    },
+    "cat-wealth": {
+        "colors": {
+            "dark": "#AA076F",
+            "highContrast": "#E839A9",
+            "mutedLight": "#FDEBF6",
+            "mutedMid": "#F1D6E7"
+        },
+        "icon_name": "cat-finance",
+        "id": "cat-wealth"
+    }
+}

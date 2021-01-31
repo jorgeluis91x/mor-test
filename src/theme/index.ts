@@ -10,6 +10,9 @@ const colors = {
   linen: '#FEF8F2',
   morOrange: '#FD7F00',
   primaryText: '#706A65',
+  secondaryText: '#A9A5A1',
+  offWhite: '#F5F3EF',
+  lightGrey: '#ECE7E0',
 };
 
 const fontSize = {
